@@ -1,7 +1,7 @@
 {
-  "name": "zznewclear13.me",
+  "name": "webpack-starter-kit",
   "version": "1.0.0",
-  "description": "This is my personal website",
+  "description": "A starter kit for webpack with pug, sass, and meta-marked",
   "private": true,
   "dependencies": {
     "lodash": "^4.17.15"
@@ -36,7 +36,9 @@
   },
   "keywords": [
     "webpack",
-    "personal website"
+    "pug",
+    "sass",
+    "meta-marked"
   ],
   "author": "zznewclear13",
   "license": "MIT"
