@@ -23,7 +23,6 @@ This will start the environment with file watching, browser synchronisation, aut
 ```
 $ npm run start
 ```
-Note that sometimes changing Pug include file or MD file may not refresh the browser.
 
 ### 2. Production mode
 This will build your website in your `./dist` folder. You may change webpack configuration to get your ideal file structure.
@@ -32,4 +31,6 @@ $ npm run build
 ```
 
 ## Caution
-For some mysterious reasons, image links in markdown files may not be recognized by webpack (although it works fine in my personal website project). You may need to copy your image files into `./dist/images` folder manually. Sorry for the inconvenience!
+For some mysterious reasons, image links in markdown files may not be recognized by webpack (although it works fine in my personal website project). You may need to copy your image files into `./dist/images` folder manually.
+And for some other mysterious reasons, changing Pug include file or MD file may not refresh the browser.
+Sorry for the inconvenience!
