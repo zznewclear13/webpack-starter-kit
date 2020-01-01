@@ -32,5 +32,7 @@ $ npm run build
 
 ## Caution
 For some mysterious reasons, image links in markdown files may not be recognized by webpack (although it works fine in my personal website project). You may need to copy your image files into `./dist/images` folder manually.
+
 And for some other mysterious reasons, changing Pug include file or MD file may not refresh the browser.
+
 Sorry for the inconvenience!
