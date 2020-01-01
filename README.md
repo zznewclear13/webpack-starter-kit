@@ -1,5 +1,5 @@
 # Webpack-Starter-Kit
-This is a starter kit for webpack with pug, sass and meta-marked. I made [my personal website](zznewclear13.me) using this starter kit.
+This is a starter kit for webpack with pug, sass and meta-marked. I made [my personal website](https://zznewclear13.me) using this starter kit.
 
 ## System Preparation
 To use this project, you will need [NodeJS](https://nodejs.org) installed on your machine.
