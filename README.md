@@ -1,5 +1,5 @@
-# zznewclear13.me
-This is my personal website (under construction).
+# Webpack-Starter-Kit
+This is a starter kit for webpack with pug, sass and meta-marked. I made [my personal website](zznewclear13.me) using this starter kit.
 
 ## System Preparation
 To use this project, you will need [NodeJS](https://nodejs.org) installed on your machine.
@@ -28,3 +28,7 @@ Note that sometimes changing Pug include file or MD file may not refresh the bro
 This will build your website in your `./dist` folder. You may change webpack configuration to get your ideal file structure.
 ```
 $ npm run build
+```
+
+## Caution
+For some mysterious reasons, image links in markdown files may not be recognized by webpack (although it works fine in my personal website project). You may need to copy your image files into `./dist/images` folder manually. Sorry for the inconvenience!
