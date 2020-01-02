@@ -3,8 +3,6 @@ title: Lagos Stadium Competition
 disc: no disc here
 path: lagos-stadium-competition
 ---
-<special>
-</special>
 
 ## Lagos Stadium Competition
 
