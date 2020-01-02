@@ -8,7 +8,7 @@ path: lagos-stadium-competition
 
 ## Lagos Stadium Competition
 
-I made this stadium design for ArchOutLoud Design Competition, together with Xiyu Chen and Ruofan Xue. In this competition, we were asked to design a new multi-purpose stadium at the former Olusosun Landfill in Lagos, Nigera.
+I made this stadium design for ArchOutLoud Design Competition, together with Xiyu Chen and Ruofan Xue. In this competition, we were asked to design a new multi-purpose stadium at the former Olusosun Landfill in Lagos, Nigeria.
 
 ![Stadium Design](../images/articles/design_01/Stadium_Design.jpg)
 

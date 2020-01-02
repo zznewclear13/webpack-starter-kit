@@ -1,0 +1,13 @@
+mixin thumb(pugclass, pughref, image, name, date )
+    a(class="article-thumb "+pugclass, href="./posts"+pughref)
+        .thumb-image(style='background-image:url(' + require('../images/articles/' +`${image}` + '.jpg') + ')') 
+        .article-meta
+            .name= name
+            .date= date
+
+articles
+    +thumb('design',
+            '/lagos-stadium-competition.html',
+            'design_01',
+            'Lagos-Stadium-Competition',
+            'Dec 17, 2018')

@@ -59,7 +59,6 @@ module.exports = {
             return new HtmlWebpackPlugin({
                 ...p,
                 chunks: ['posts'],
-                favicon: './images/favicon.ico'
             });
         })
     ],
