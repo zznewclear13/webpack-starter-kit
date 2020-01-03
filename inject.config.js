@@ -2,7 +2,7 @@ const path = require('path');
 const metamarked = require('meta-marked');
 const fs = require('fs');
 
-const PAGE_MARKDOWN_PATH = path.join(__dirname, './_posts');
+const PAGE_MARKDOWN_PATH = path.join(__dirname, './posts');
 const PAGE_OUTPUT_PATH = path.join(__dirname, './dist/posts');
 
 
