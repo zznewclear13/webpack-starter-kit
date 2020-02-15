@@ -35,7 +35,7 @@ In `./src/artilces.pug`, changing
 ```
 style='background-image:url(' + require('../images/articles/' +`${image}` + '.jpg') + ')'
 ```
-may result in webpack being unable to recognize image links in markdown files.
+may result in webpack being unable to recognize image links in markdown files. Because of the same problem, markdown files can only embed jpg files.
 
 For some other mysterious reasons, changing Pug include file or MD file may not refresh the browser.
 
