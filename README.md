@@ -4,10 +4,11 @@ Also you can find source code for my personal website [here](https://github.com/
 
 ## 2022年6月5日修正
 需要确保NodeJs的版本是14.0.0，在[这里](https://nodejs.org/download/release/v14.0.0/)可以下载到历史的NodeJS版本，选择`node-v14.0.0-x64.msi`。
+2022年7月12日，在cnpm@8.1.0, npm@6.14.17, node@14.0.0, npminstall@6.2.1的环境下测试成功。
 
 进入到webpack-start-kit的文件目录，在vscode的terminal中输入
 ```
-$ npm install cnpm -g --registry=https://registry.npmmirror.com
+$ npm install cnpm@8.1.0 -g --registry=https://registry.npmmirror.com
 ```
 这样可以下载到中国的npm镜像（不会因为网络的原因而安装失败）。
 
