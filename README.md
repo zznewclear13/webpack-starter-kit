@@ -8,7 +8,7 @@ Also you can find source code for my personal website [here](https://github.com/
 1. 在[这里](https://nodejs.org/download/release/v14.17.0/)可以下载到14.17.0的NodeJS版本。
 2. 安装NodeJS时，要勾选 Automatically install the necessary tools 这一选项。
 3. 进入到webpack-start-kit的文件目录，在vscode的terminal中输入`npm install cnpm@8.2.0 -g --registry=https://registry.npmmirror.com`可以安装8.2.0的cnpm，我们通过cnpm下载到中国的npm镜像（这样不会因为网络的原因而安装失败）。
-4. 安装完成后可以看到类似`+ cnpm@8.1.0`的提示，然后输入`cnpm install`。
+4. 安装完成后可以看到类似`+ cnpm@8.2.0`的提示，然后输入`cnpm install`（必要的时候要删除目录下的node_modules文件夹）。
 5. 最后使用`npm run start`就能在浏览器中打开创建好的网页了。
 
 如果遇到下面的错误，需要用管理员模式运行Windows PowerShell，输入`Set-ExecutionPolicy Bypass`再输入`y`确定更改。
